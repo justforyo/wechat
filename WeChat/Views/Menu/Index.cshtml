@@ -1,0 +1,28 @@
+﻿@model List<Model.Person>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_weLayout.cshtml";
+}
+
+<a href="javascript:;" class="weui-btn weui-btn_primary">按钮</a>
+
+<div class="weui-cells">
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><img src=""></div>
+        <div class="weui-cell__bd">
+            <p>姓名</p>
+        </div>
+        <div class="weui-cell__ft">年龄</div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="weui-cell">
+            <div class="weui-cell__hd"><img src=""></div>
+            <div class="weui-cell__bd">
+                <p>@item.Name</p>
+            </div>
+            <div class="weui-cell__ft">@item.Age</div>
+        </div>
+    }
+</div>
+

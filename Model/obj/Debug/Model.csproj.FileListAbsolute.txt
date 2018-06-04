@@ -1,0 +1,4 @@
+D:\workspace\MyProjects\WeChat\Model\bin\Debug\Model.dll
+D:\workspace\MyProjects\WeChat\Model\bin\Debug\Model.pdb
+D:\workspace\MyProjects\WeChat\Model\obj\Debug\Model.dll
+D:\workspace\MyProjects\WeChat\Model\obj\Debug\Model.pdb
